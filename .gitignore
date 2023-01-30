@@ -1,0 +1,7 @@
+logs
+Screenshots
+.idea
+test-output
+src/test/resources/app/*
+videos
+target

@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests">
+    <listeners>
+        <listener class-name="com.qa.listeners.TestListener"/>
+    </listeners>
+<!--    <test name="iOS">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="com.qa.tests.ProductTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.qa.tests.LoginTest"/>&ndash;&gt;-->
+<!--            <class name="com.qa.tests.DragElementTest"/>-->
+<!--            <parameter name="platformVersion" value="12"/>-->
+<!--            <parameter name="platformName" value="iOS"/>-->
+<!--            <parameter name="deviceName" value="Iphone"/>-->
+<!--            <parameter name="wdaLocalPort" value="2000"/>-->
+<!--            <parameter name="webkitDebugProxyPort" value="2001"/>-->
+<!--&lt;!&ndash;            <parameter name="udid" value="B2648D6C-D6CF-4774-8D0B-82AB00702671"/>&ndash;&gt;-->
+<!--            <parameter name="udid" value="9BDC5347-EB2E-4DDE-97C8-E584F95744FA"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Tests Android">
+        <classes>
+<!--            <class name="com.qa.tests.ProductTest"/>-->
+<!--            <class name="com.qa.tests.LoginTest"/>-->
+            <class name="com.qa.tests.DragElementTest"/>
+            <parameter name="platformVersion" value="12"/>
+            <parameter name="platformName" value="Android"/>
+            <parameter name="deviceName" value="OnePlus"/>
+<!--            <parameter name="udid" value="c5d2fd7f"/>-->
+            <parameter name="udid" value=""/>
+<!--            <parameter name="systemPort" value="2005"/>-->
+<!--                        <parameter name="emulator" value="true"/>-->
+
+        </classes>
+    </test>
+
+</suite>
