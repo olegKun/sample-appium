@@ -135,7 +135,7 @@ public class BaseTest {
             properties.load(inputStream);
             setProps(properties);
 
-            URL url = new URL("http://localhost:4723/wd/hub");
+            URL url = new URL("http://localhost:4723/");
             DesiredCapabilities caps = new DesiredCapabilities();
 
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, platformName);
@@ -155,7 +155,7 @@ public class BaseTest {
 
 //                    caps.setCapability("appPackage", "com.swaglabsmobileapp");
 //                    caps.setCapability("appActivity", "com.swaglabsmobileapp.SplashActivity");
-                    caps.setCapability("systemPort", systemPort);
+//                    caps.setCapability("systemPort", systemPort);
 
                     driver = new AndroidDriver(url, caps);
                     break;

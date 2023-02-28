@@ -7,7 +7,7 @@
 <!--        <classes>-->
 <!--&lt;!&ndash;            <class name="com.qa.tests.ProductTest"/>&ndash;&gt;-->
 <!--&lt;!&ndash;            <class name="com.qa.tests.LoginTest"/>&ndash;&gt;-->
-<!--            <class name="com.qa.tests.DragElementTest"/>-->
+<!--            <class name="com.qa.tests.AndroidActionsTest"/>-->
 <!--            <parameter name="platformVersion" value="12"/>-->
 <!--            <parameter name="platformName" value="iOS"/>-->
 <!--            <parameter name="deviceName" value="Iphone"/>-->
@@ -22,12 +22,12 @@
         <classes>
 <!--            <class name="com.qa.tests.ProductTest"/>-->
 <!--            <class name="com.qa.tests.LoginTest"/>-->
-            <class name="com.qa.tests.DragElementTest"/>
-            <parameter name="platformVersion" value="12"/>
+<!--            <class name="com.qa.tests.AndroidActionsTest"/>-->
+            <class name="com.qa.tests.AndroidActionsTest"/>
+            <parameter name="platformVersion" value="13"/>
             <parameter name="platformName" value="Android"/>
             <parameter name="deviceName" value="OnePlus"/>
-<!--            <parameter name="udid" value="c5d2fd7f"/>-->
-            <parameter name="udid" value=""/>
+            <parameter name="udid" value="c5d2fd7f"/>
 <!--            <parameter name="systemPort" value="2005"/>-->
 <!--                        <parameter name="emulator" value="true"/>-->
 

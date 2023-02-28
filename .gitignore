@@ -2,6 +2,6 @@ logs
 Screenshots
 .idea
 test-output
-src/test/resources/app/*
+#src/test/resources/app/*
 videos
 target
